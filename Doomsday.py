@@ -61,7 +61,8 @@ os.system('clear')
 
 # Gameplay
 while play:
-
+    # Technically these two dates can be any valid dates but I think if you made it too large of a timespan 
+    # then you might not be able to get every possible date due to rounding of the float into datetime value
     date = random_date('1/1/1900', '12/31/2099', random.random())
 
     start = time.time()
